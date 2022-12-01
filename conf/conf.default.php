@@ -105,13 +105,7 @@ return array (
 	
 	'cdn_on' => 0,
 	
-	/* 支持多种 URL 格式：
-		0: ?thread-create-1.htm
-		1: thread-create-1.htm
-		2: ?/thread/create/1  不支持
-		3: /thread/create/1   不支持
-	*/
-	'url_rewrite_on' => 0,
+	'url_rewrite_on' => 0,		// 设置1开启伪静态
 	
 	// 禁止插件
 	'disabled_plugin' => 0, 
