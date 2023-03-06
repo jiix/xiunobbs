@@ -42,7 +42,7 @@ Xiuno BBS 4.0 是一款轻论坛产品。
 ![image](https://raw.githubusercontent.com/jiix/xiunobbs/master/screenshot.png)
 
 ## 使用
-使用请下载发布版，集成较少插件。数据库请采用**utf8mb4**，安装完成后，请删除install目录。
+使用请下载发布版，集成较少插件。数据库请采用**utf8mb4**（utf8mb4_general_ci），安装完成后，请删除install目录。
 插件和主题，直接上传到**plugin**目录中，后台插件中心开启。
 
 ### 伪静态
