@@ -712,12 +712,6 @@ function get__browser() {
 	return $browser;
 }
 
-function check_browser($browser) {
-	if($browser['name'] == 'ie' && $browser['version'] < 8) {
-		include _include(APP_PATH.'view/htm/browser.htm');
-		exit;
-	}
-}
 
 function is_robot() {
 	$agent = _SERVER('HTTP_USER_AGENT');
