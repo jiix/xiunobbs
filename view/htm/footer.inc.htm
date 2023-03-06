@@ -25,10 +25,6 @@
 	
 	<!--{hook footer_js_before.htm}-->
 	
-	<?php $browser = get__browser();?>
-	<?php if($browser['name'] == 'ie') { ?>
-	<script src="<?php echo $conf['view_url'];?>js/es6-shim.js"></script>
-	<?php } ?>
 	<script src="lang/<?php echo $conf['lang'];?>/bbs.js"></script>
 	<script src="<?php echo $conf['view_url'];?>js/jquery-3.5.1.min.js"></script>
 	<script src="<?php echo $conf['view_url'];?>js/popper.min.js"></script>
