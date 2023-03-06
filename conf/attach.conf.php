@@ -7,7 +7,6 @@ return array (
 	'video' => array('av','wmv','wav','wma','avi','mp4'),
 	'music' => array('mp3','mp4'),
 	'exe' => array('exe','bin'),
-	'flash' => array('swf','fla','as'),
 	'image' => array('gif','jpg','jpeg','png','bmp','webp'),
 	'office' => array('doc','xls','ppt','docx','xlsx','pptx'),
 	'pdf' => array('pdf'),
