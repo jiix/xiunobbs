@@ -82,7 +82,7 @@ location ~* \.(htm)$ {
 <summary>Caddy伪静态（Caddyfile演示）：</summary>
 
 ```
-www.yourdomain.com
+www.yourdomain.com {
 
 # Set this path to your site's directory.
 root * /var/www
@@ -91,6 +91,7 @@ file_server
 
 # Or serve a PHP site through php-fpm:
 php_fastcgi localhost:9000
+}
 
 ```
 </details>
