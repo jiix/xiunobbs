@@ -59,7 +59,7 @@
 							<td><?php echo $_user['username']; ?></td>
 							<td><?php echo $_user['groupname']; ?></td>
 							<td><?php echo date('Y-n-j H:i:s', $_user['create_date']); ?></td>
-							<td><a href="https://bbs.xiuno.com/ip.htm?ip=<?php echo $_user['create_ip_fmt']; ?>" target="_blank"><?php echo $_user['create_ip_fmt']; ?></a></td>
+							<td><?php echo $_user['create_ip_fmt']; ?></td>
 							<td><a href="<?php echo url("user-update-$_user[uid]"); ?>"><?php echo lang('edit');?></a></td>
 						</tr>
 					<?php } ?>
