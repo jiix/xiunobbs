@@ -12,8 +12,8 @@ function get_env(&$env, &$write) {
 	$env['php_version']['name'] = lang('php_version');
 	$env['php_version']['must'] = TRUE;
 	$env['php_version']['current'] = PHP_VERSION;
-	$env['php_version']['need'] = '5.0';
-	$env['php_version']['status'] = version_compare(PHP_VERSION , '5') > 0;
+	$env['php_version']['need'] = '7.4';
+	$env['php_version']['status'] = version_compare(PHP_VERSION , '7') > 0;
 
 	// 目录可写
 	$writedir = array(
