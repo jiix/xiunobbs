@@ -9,19 +9,6 @@
 			<div class="card-body">
 				<h3 class="card-title"><?php echo lang('step_2_title');?></h3>
 				<div class="form-group row">
-					<label class="col-sm-3 form-control-label"><?php echo lang('db_type');?>：</label>
-					<div class="col-sm-9">
-						<label><input type="radio" name="type" value="pdo_mysql" <?php echo ($pdo_mysql_support ? ' ' : ' disabled'); ?>  <?php echo ($pdo_mysql_support ? 'checked' : ' '); ?> /> pdo_mysql</label>
-					</div>
-				</div>
-				<div class="form-group row">
-					<label class="col-sm-3 form-control-label"><?php echo lang('db_engine');?>：</label>
-					<div class="col-sm-9">
-						<label><input type="radio" name="engine" value="myisam" /> MyISAM</label>
-						<label><input type="radio" name="engine" value="innodb" checked /> InnoDB</label>
-					</div>
-				</div>
-				<div class="form-group row">
 					<label class="col-sm-3 form-control-label"><?php echo lang('db_host');?>：</label>
 					<div class="col-sm-9">
 						<input type="text" name="host" class="form-control" value="127.0.0.1">
