@@ -89,8 +89,8 @@ if(empty($action)) {
 		
 	} else {
 		
-		$type = param('type');	
-		$engine = param('engine');	
+		$type = 'pdo_mysql';	
+		$engine = 'innodb';	
 		$host = param('host');	
 		$name = param('name');	
 		$user = param('user');
